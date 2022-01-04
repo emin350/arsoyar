@@ -1,0 +1,126 @@
+*{
+    
+    margin:0;
+    padding:0;
+}
+
+
+.row {
+   
+    height:auto;
+    padding: 5rem;
+   
+}
+
+h4 {
+    text-align: center;
+}
+
+.col-md-6 {
+    padding:2rem;
+    margin: auto;
+       
+}
+
+p {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.card{
+   
+    height: auto;
+    box-shadow: 0 4px 8px;
+    border-radius:20px;
+    transition: box-shadow 0.3s
+    }
+
+
+.card:hover{
+    
+    box-shadow: 0 8px 16px 0 rgba(10, 9, 9, 0.2);
+}
+
+.card-body{
+  
+    color: rgb(228, 15, 15);
+
+}
+
+
+.card-title{
+margin-bottom:15px;
+}
+
+
+.Link{
+    text-decoration: none;
+   
+}
+
+.Link:hover{
+    text-decoration: none;
+}
+
+.card-text {
+    float: left;
+    margin:auto;
+}
+
+.ilk{
+    background-color: rgb(11, 149, 184);
+    color: white;
+    height:110vh;
+   
+    
+}
+
+
+
+.ilk1{
+   
+    padding-top:190px;
+   float:left;
+}
+ 
+.ilk2{
+    height:110vh;
+    padding-top:190px;
+    float: left;
+}
+
+
+@media screen and (max-width:778px) {
+
+ .card{
+            height:auto;
+            width: 300px;
+        
+        }
+
+  
+  .col-md-6 {
+           
+        right:55px;
+               
+        }   
+
+.ilk1{
+    
+    margin-left: 50px;
+    float: left;
+    
+}
+
+.ilk2{
+   
+    margin-left: 50px;
+    
+}
+
+
+}
+
+         
+
+ 

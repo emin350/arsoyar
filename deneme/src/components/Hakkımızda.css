@@ -1,0 +1,36 @@
+
+.hkk1 {
+    background-color: rgb(204, 178, 178);
+    height:auto;
+}
+
+.Hakkımızda1 {
+    margin: 10px 50px;
+    padding-top:120px;
+    
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.iletisim{
+    height:100vh;
+    background-color: rgb(204, 178, 178);
+    padding: 40px;
+    text-align:left;
+}
+
+.iletisimm{
+    padding-top: 100px;
+    text-align:center;
+}
+
+@media screen and (max-width:778px) {
+
+    h1 {
+        margin: 10px 30px;
+         
+     }
+   }

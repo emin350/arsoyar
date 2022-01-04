@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.Header{
+   margin-top: 65px;
+   text-align: center;
+   height:auto;
+   background-color: rgb(197, 233, 35);
+}
+
+img{
+    width: 150vh;
+    height: auto;
+}
+
+.ozelders{
+    margin-top: 100px;
+    height:100vh; 
+}
+
+
+  @media screen and (max-width:778px) {
+    .ozelders{
+        margin-top: 88px;
+        height:auto; 
+    }
+}  
